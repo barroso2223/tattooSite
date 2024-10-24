@@ -405,8 +405,9 @@ nav .faFonts {
 	z-index: 1;
 }
 
-.imgCard {
+#about .imgCard {
 	overflow: hidden;
+    box-shadow: 2px 2px 15px var(--clrTheme1);
 } 
 
 #about img {
