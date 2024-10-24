@@ -968,6 +968,10 @@ nav .faFonts {
 		margin: auto;
 	}
 
+    #contactMe .container {
+        padding-left: 1rem;
+    }
+
     .copyright {
         display: grid;
         place-content: center;
