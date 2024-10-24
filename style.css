@@ -713,8 +713,27 @@ nav .faFonts {
 	place-items: center;
 }
 
+.calendly-inline-widget {
+    margin-top: .5rem;
+    border-radius: .5rem;
+
+}
+
 .calendar a {
 	color: var(--clrTheme1);
+}
+
+.calendar span {
+    border: 1px solid var(--clrTheme1);
+    border-radius: .5rem;
+    width: fit-content;
+    height: min-content;
+    padding: .125rem;
+    font-family: var(--ffTheme);
+    font-weight: 600;
+    background: var(--ombreTheme);
+    color: var(--clrTheme2);
+    gap: 1rem;
 }
 
 #footer {
