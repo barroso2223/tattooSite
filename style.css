@@ -868,7 +868,7 @@ nav .faFonts {
 	#contactMe {
 		display: grid;
 		place-items: center;
-		padding: 1rem 2rem;
+		padding: 1rem 1rem;
 		margin: auto;
 		min-height: 100dvh;
 		text-align: center;
@@ -969,7 +969,21 @@ nav .faFonts {
 	}
 
     #contactMe .container {
-        padding-left: 1rem;
+        display: grid;
+        place-content: center;
+    }
+
+    #contactMe .container h2,
+    #contactMe .container p {
+        padding-left: 3rem;
+    }
+
+    .contactGrid ul {
+        margin-left: 1rem;
+    }
+
+    .calendar {
+        margin-top: -1rem;
     }
 
     .copyright {
