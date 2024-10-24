@@ -966,4 +966,10 @@ nav .faFonts {
 		max-width: 80dvw;
 		margin: auto;
 	}
+
+    .copyright {
+        display: grid;
+        place-content: center;
+        padding-right: 2.5rem;
+    }
 }
